@@ -1,0 +1,38 @@
+div.post-page div.image{
+    max-height: 200px;
+    display: flex;
+    overflow: hidden;
+}
+
+div.post-page div.image img{
+    object-fit: cover;
+    object-position: center center;
+}
+
+div.post-page a{
+    color: #333;
+    text-decoration: underline;
+}
+
+div.post-page div.postInfo div.title-author-edit{
+    display: flex;
+    gap: 1rem;
+    font-size: small;
+}
+div.post-page div.postInfo div.title-author-edit a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+div.post-page div.postInfo div.title-author-edit div.time{
+    display: block;
+    font-style:italic ;
+    opacity: 50%;
+}
+
+div.post-page div.post-content p {
+    line-height: 1.6rem;
+    margin: 0;
+
+}
+
